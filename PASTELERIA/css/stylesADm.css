@@ -1,0 +1,38 @@
+*{
+    font-family: "krub",sans-serif;
+    background-color: antiquewhite;
+}
+header{
+    text-align: center;
+}
+.pedidos{
+    background-color: antiquewhite;
+    height: 400px;
+}
+.pedidos tr th{
+    background-color: #957dad;
+    padding: 10px;
+}
+.pedidos tr td{
+    padding: 10px;
+    background-color: #c083bb;
+}
+.pedidos table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.sabor-pastel{
+    text-align: center;
+
+}
+.sabor-pastel ul{
+    list-style: none;
+    
+}
+.sabor-pastel ul li{
+    font-size: 20px;
+    padding: 10px;
+} 
+.sabor-pastel ul li span{
+    margin: 20px;
+}

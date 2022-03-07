@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header class="Pedido_head"> <h1 class="Ptit">CREA TU PASTEL</h1></header>
+       
+        <div class="pedido">
+            <form action="pedido.js">
+                <label for="nombre" class="datos">danos tu nombre</label> <br>
+                <input type="text" name="nombre" id="nombre" placeholder="nombre" class="form">
+                <br><br>
+                <label for="telefono" class="datos">Telefono</label><br>
+                <input type="number" name="telefono" id="telefono" placeholder="telefono" class="form">
+                <br><br>
+                <label for="correo" class="datos">Correo</label><br>
+                <input type="email" name="correo" id="correo" placeholder="Correo electronico" class="form">
+        
+                <br><br>
+                <p>Pan base de tu pastel</p>
+                
+                <label for="chocolate" class="radio">chocolate <input type="radio" name="pastel" id="chocolate" value="chocolate" ></label><br>
+                
+                <label for="vainilla"class="radio">vainilla <input type="radio" name="pastel" id="vainilla" value="vainilla"></label><br>
+                
+                <label for="fresa"class="radio">fresa <input type="radio" name="pastel" id="fresa" value="fresa"> </label><br>
+                
+                <label for="tres leches"class="radio">tres leches <input type="radio" name="pastel" id="tres leches" value="tres leches"></label><br>
+                
+                <label for="napolitano"class="radio">napolitano <input type="radio" name="pastel" id="napolitano" value="napolitano"> </label><br>
+                
+                <label for="nuez"class="radio">nuez <input type="radio" name="pastel" id="nuez" value="nuez"></label><br>
+        
+                <p>Adornos de tu pastel</p>
+                
+                <label for="gomitas" class="adornos">gomitas <input type="checkbox" name="Adornos" id="gomitas" value="gomitas"></label><br>
+                
+                <label for="fresas" class="adornos">fresas <input type="checkbox" name="Adornos" id="fresas" value="fresas"></label><br>
+               
+                <label for="kiwi" class="adornos">kiwi  <input type="checkbox" name="Adornos" id="kiwi" value="kiwi"></label><br>
+                
+                <label for="hojuelas de chocolate (cacao)" class="adornos">hojuelas de chocolate (cacao) <input type="checkbox" name="Adornos" id="hojuelas de chocolate (cacao)" value="hojuelas de chocolate (cacao)"></label><br>
+                
+                <label for="hojuelas de chocolate blanco" class="adornos">hojuelas de chocolate blanco <input type="checkbox" name="Adornos" id="hojuelas de chocolate blanco" value="hojuelas de chocolate blanco"></label><br>
+                
+                <label for="grajea" class="adornos">grajea <input type="checkbox" name="Adornos" id="grajea" value="grajea"></label><br>
+                
+                <label for="ceresas" class="adornos">ceresas <input type="checkbox" name="Adornos" id="ceresas" value="ceresas"></label><br>
+                
+                <label for="chispas de choloate" class="adornos">chispas de choloate <input type="checkbox" name="Adornos" id="chispas de choloate" value="chispas de choloate"></label><br>
+               
+                <label for="coco" class="adornos">coco  <input type="checkbox" name="Adornos" id="coco" value="coco"></label><br>
+                
+                <label for="nuezz" class="adornos">nuez <input type="checkbox" name="Adornos" id="nuezz" value="nuezz"></label><br>
+                
+                <label for="dulce de leche" class="adornos">dulce de leche <input type="checkbox" name="Adornos" id="dulce de leche" value="dulce de leche"></label><br>
+    
+                <br><br>
+    
+                <input type="submit" value="Crear pastel">
+        
+            </form>
+        </div>
+        
+        
+    </main>
+</body>
+</html>
